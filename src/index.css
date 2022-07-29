@@ -1,0 +1,90 @@
+html, body {
+  font-family: sans-serif;
+}
+
+.page {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dark-mode {
+  background-color: #171717;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  outline: none;
+  border: 2px solid white;
+}
+
+.dark-mode-button {
+  border: 2px solid white;
+  color: white;
+  background-color: #171717;
+}
+
+.light-mode-button {
+  border: 2px solid #171717;
+  color: #171717;
+  background-color: white;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+input, label {
+  display: block;
+  margin: 8px auto;
+}
+
+input {
+  padding: 8px;
+  width: 300px;
+}
+
+input[type=submit] {
+  width: 100px;
+}
+
+.dog-pics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.dog-pics img {
+  width: 500px;
+  height:400px;
+  object-fit: contain;
+}
+
+h1 {
+  text-align: center;
+}
+
+.items {
+  padding-left: 15px;
+}
+
+.cart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.total {
+  margin: 0 auto;
+  text-align: center;
+}
+
+button {
+  margin:0 5px;
+}
